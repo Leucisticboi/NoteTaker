@@ -67,6 +67,8 @@ I referenced the Module 11 practice assignments from the U of U Full-Stack Devel
 
 For my license badge and link I referenced [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba).
 
+I utilized ChatGPT for writing my final JS comments and to debug a select few small issues with my POST route.
+
 ## Live URL
 [Note Taker](https://blooming-fortress-38068-298d76c80f65.herokuapp.com/notes)
 
