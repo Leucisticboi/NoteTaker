@@ -58,7 +58,8 @@ For pre-existing notes: click on the note's title in the left-hand column to see
 For new notes: enter a title. Enter the note's text, then click save. Your new note's title will now appear in the left-hand column and the note will become your current active note.
 
 ## License
-[License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+
 [Internet Software Consortium](https://opensource.org/licenses/ISC)
 
 ## References
