@@ -49,7 +49,7 @@ THEN I am presented with empty fields to enter a new note title and the note's t
 No installation is required. Simply navigate to the URL provided below.
 
 ## Usage
-Open the Note Taker with the URL provided below in [Live URL](#live-url). You will arrive at the landing page. Click the "Get Started" button.
+Open the Note Taker with the URL provided below in [live URL](#live-url). You will arrive at the landing page. Click the "Get Started" button.
 
 You will now be presented with the Note Taker page. One the left-hand side you will see existing notes. On the right-hand side you will see two empty fields to enter a new note title and text. 
 
@@ -58,10 +58,13 @@ For pre-existing notes: click on the note's title in the left-hand column to see
 For new notes: enter a title. Enter the note's text, then click save. Your new note's title will now appear in the left-hand column and the note will become your current active note.
 
 ## License
-N/A
+[License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+[Internet Software Consortium](https://opensource.org/licenses/ISC)
 
 ## References
 I referenced the Module 11 practice assignments from the U of U Full-Stack Development bootcamp in order to complete the back-end structure of this application.
+
+For my license badge and link I referenced [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba).
 
 ## Live URL
 [Note Taker](#live-url)
