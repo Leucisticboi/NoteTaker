@@ -1,6 +1,27 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Roberto",
+        "text": "Howdy!",
+        "id": "abad"
+    },
+    {
+        "title": "Howdy",
+        "text": "Roberto",
+        "id": "d086"
+    },
+    {
+        "title": "New note",
+        "text": "This is my third test note\nIt's pretty cool that I was able to get this application working",
+        "id": "1ad8"
+    },
+    {
+        "title": "It works!",
+        "text": "I'm happy with how this works",
+        "id": "0375"
+    },
+    {
+        "title": "Anotha one",
+        "text": "Another note saved",
+        "id": "0fda"
     }
 ]
