@@ -76,3 +76,10 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
