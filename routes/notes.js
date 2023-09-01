@@ -2,15 +2,14 @@ const nb = require('express').Router();
 const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
 const uuid = require('../helpers/uuid');
 const path = require('path');
-const dbFilePath = path.join(__dirname, '../db/db.json');
 
 nb.get('/', (req, res) => {
     console.info(`${req.method} request received for notes`);
 
-    readFromFile(dbFilePath).then((data) => res.json(JSON.parse(data)));
+    readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
-nb.post('/notes', (req, res) => {
+nb.post('/', (req, res) => {
     console.info(`${req.method} request received to  submit new note`);
 
     const { title, text } = req.body;
@@ -19,10 +18,10 @@ nb.post('/notes', (req, res) => {
         const newNote = {
             title,
             text,
-            note_id: uuid()
+            note_id: uuid(),
         };
 
-        readAndAppend(newNote, dbFilePath);
+        readAndAppend(newNote, './db/db.json');
 
         const response = {
             status: 'success',
