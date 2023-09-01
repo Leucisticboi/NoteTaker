@@ -68,6 +68,9 @@ I referenced the Module 11 practice assignments from the U of U Full-Stack Devel
 For my license badge and link I referenced [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba).
 
 ## Live URL
-[Note Taker](#live-url)
+[Note Taker](https://blooming-fortress-38068-298d76c80f65.herokuapp.com/notes)
 
 ## Screenshot
+![Screenshot 1](./public/assets/screenshots/Note_Taker_Screenshot_1.png)
+
+![Screenshot 2](./public/assets/screenshots/Note_Taker_Screenshot_2.png)
