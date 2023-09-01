@@ -1,27 +1,17 @@
 [
     {
-        "title": "Roberto",
-        "text": "Howdy!",
-        "id": "abad"
+        "title": "Success!",
+        "text": "This is my first successful POST request!",
+        "id": "eb5f"
     },
     {
-        "title": "Howdy",
-        "text": "Roberto",
-        "id": "d086"
+        "title": "Success #2",
+        "text": "This is my second test note, I was able to get the GET request to work.",
+        "id": "2fea"
     },
     {
-        "title": "New note",
-        "text": "This is my third test note\nIt's pretty cool that I was able to get this application working",
-        "id": "1ad8"
-    },
-    {
-        "title": "It works!",
-        "text": "I'm happy with how this works",
-        "id": "0375"
-    },
-    {
-        "title": "Anotha one",
-        "text": "Another note saved",
-        "id": "0fda"
+        "title": "Success #2",
+        "text": "This is my third test note. I was able to get the DELETE request to work :)",
+        "id": "ef26"
     }
 ]
