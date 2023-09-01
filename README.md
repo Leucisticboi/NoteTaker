@@ -53,7 +53,7 @@ Open the Note Taker with the URL provided below in [live URL](#live-url). You wi
 
 You will now be presented with the Note Taker page. One the left-hand side you will see existing notes. On the right-hand side you will see two empty fields to enter a new note title and text. 
 
-For pre-existing notes: click on the note's title in the left-hand column to see the full note.
+For pre-existing notes: click on the note's title in the left-hand column to see the full note. If you would like to delete a note, simply click the red trashcan icon next to the note's title.
 
 For new notes: enter a title. Enter the note's text, then click save. Your new note's title will now appear in the left-hand column and the note will become your current active note.
 
