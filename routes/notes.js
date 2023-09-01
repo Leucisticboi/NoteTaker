@@ -4,7 +4,7 @@ const uuid = require('../helpers/uuid');
 const path = require('path');
 const dbFilePath = path.join(__dirname, '../db/db.json');
 
-nb.get('/notes', (req, res) => {
+nb.get('/', (req, res) => {
     console.info(`${req.method} request received for notes`);
 
     readFromFile(dbFilePath).then((data) => res.json(JSON.parse(data)));
@@ -19,7 +19,7 @@ nb.post('/notes', (req, res) => {
         const newNote = {
             title,
             text,
-            note_id: uuid(),
+            note_id: uuid()
         };
 
         readAndAppend(newNote, dbFilePath);
@@ -31,7 +31,7 @@ nb.post('/notes', (req, res) => {
 
         res.json(response);
     } else {
-        res.json('Error in posting feedback');
+        res.json('Error in saving note');
     }
 });
 
